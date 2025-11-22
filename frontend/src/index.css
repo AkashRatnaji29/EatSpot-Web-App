@@ -1,0 +1,7 @@
+/* --- New Global Styles for Modern Look --- */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Using a modern font (though you might need to import it, we'll keep it simple here) */
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); /* Subtle gradient background */
+  min-height: 100vh;
+}
