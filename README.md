@@ -35,13 +35,16 @@ Open your terminal in the project's root directory (eatspot-web-app).
 Install Backend dependencies:
 
 cd backend
+
 npm install
 
 
 Return to the root directory and install Frontend dependencies:
 
 cd ..
+
 cd frontend
+
 npm install
 
 
@@ -63,6 +66,7 @@ JWT_SECRET=8bS!bT#wF4aP$zQyG7kR@cE2hM&jN*uL0xV(eD)iZpOsYtC-vU
 Populate the Database: Run the seed script to create the database collection and populate it with initial restaurant data (Images and Ratings):
 
 cd backend
+
 npx ts-node seed.ts
 
 
@@ -78,6 +82,7 @@ The server will run on http://localhost:5000.
 Open a new terminal window and start the Frontend Application:
 
 cd frontend
+
 npm run dev
 
 
