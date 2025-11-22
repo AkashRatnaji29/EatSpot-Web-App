@@ -59,9 +59,8 @@ Crucial Step: Create a file named .env inside the backend directory.
 
 Add the following two variables to the .env file. You MUST replace the placeholders with your unique MongoDB and secret key values:
 
-MONGO_URI=mongodb+srv://akashratnaji72_db_user:Akash2910@restaurantlistingcluste.neyqi7p.mongodb.net/?appName=RestaurantListingCluster
-JWT_SECRET=8bS!bT#wF4aP$zQyG7kR@cE2hM&jN*uL0xV(eD)iZpOsYtC-vU
-
+MONGO_URI=<YOUR_MONGO_DB_CONNECTION_STRING>
+JWT_SECRET=<YOUR_SECURE_JWT_SECRET_KEY>
 
 Populate the Database: Run the seed script to create the database collection and populate it with initial restaurant data (Images and Ratings):
 
